@@ -15,7 +15,8 @@ public class LoginTest extends BaseClass {
         login.usernameField();
         login.passwordField();
         login.loginBtn();
-        Thread.sleep(2000);
+
+
 
     }
 
