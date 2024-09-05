@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Suite" verbose="1" parallel="tests" thread-count="2">
+
+    <!-- Define a test -->
+    <test name="Sample Test">
+        <classes>
+            <!-- Include your test classes here -->
+
+            <class name=" LoginTest.LoginTest "/>
+        </classes>
+    </test>
+
+    <!-- Another test can be added here if needed -->
+    <!--
+    <test name="Another Test">
+        <classes>
+            <class name="com.example.tests.AnotherTestClass"/>
+        </classes>
+    </test>
+    -->
+
+</suite>
